@@ -1,0 +1,41 @@
+:root {
+    --blanco: #ffffff;
+    --ócuro:#212121;
+    --primario:rgba(255,193,7,1);
+    --sucundario:#0097a7;
+    --gris:#757575;
+
+    --fuente-principal:3.8rem;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;/* 10px= 1 rem*/
+    font-family: 'Krub', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    color: var(--primario);  
+    font-size: var(--fuente-principal);   
+    
+    font-weight: 400;  
+}
+h1.titulo span{
+    font-size: 2rem; 
+    color: rgb(71, 255, 184);
+}
+
+.titulo span{
+    font-size: 2rem; 
+    color: tomato;
+}
+span{
+    font-size: 2rem; 
+    color: rgb(35, 216, 81) ;
+}
+
