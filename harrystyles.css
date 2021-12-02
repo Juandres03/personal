@@ -1,0 +1,31 @@
+h1 {
+    font: bold 20px verdana,sans-serif;
+    padding: 1px;
+    margin: 5px ;
+}
+
+h2 {
+    font: bold 35px verdana,sans-serif;
+    padding: 1px;
+    margin-top: 10px;
+
+
+}
+
+#cabecera {
+    text-align: left;
+    background-color: #42424077;
+    color:white;
+    border: 1 px solid #42424077;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#cabecera aside img{
+    width: 200px;
+    text-align: right;
+}
+#navegacion {
+    padding: 20px;
+    
+}
