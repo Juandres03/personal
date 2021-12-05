@@ -10,6 +10,12 @@
 
 }
 html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+html {
     font-size: 62.5%;
 }
 
@@ -21,32 +27,52 @@ body{
 
 h1 {
     font-size: 1.5rem;
+    font-weight: 700;
     
 }
 h1 span {
     font-size: 3rem ; 
+    font-weight: 700;
 }
 
 
 
 #cabecera {
-    text-align: left;
+    text-align: center;
    background-color: var(--primario);
     color: var(--ócuro);
    border: 1 px solid var(--primario);
-    padding: 1rem;
+   padding-top: 2rem;
+   
     
-    border-radius: 5%;
+    
+    border-radius: 10px;
 }
+#cabecera h1{
+    display: flex;
+    
+    
 
-#cabecera aside img{
+}
+#cabecera h1 img{
     width: 200px;
-    text-align: right;
+    
     border-radius: 15%;
+    display: flex;
+    
 }
 #navegacion {
-    padding: 2rem;
-    background-color:var(--botones);
-    
-    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;   
+    background-color: var(--botones);
+    border-radius : 10px;
+}
+#navegacion a{
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+    font-weight: 700;
 }
